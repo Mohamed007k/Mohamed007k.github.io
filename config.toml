@@ -1,5 +1,5 @@
 # Hugo Site Configuration
-baseURL = "https://mohamedkhaled.me" # Replace with your actual domain once purchased
+baseURL = "https://my-portfolio-website-nine-plum.vercel.app" # Replace with your actual domain once purchased
 languageCode = "en-us"
 title = "Mohamed Khaled | Portfolio"
 theme = "careercanvas"
