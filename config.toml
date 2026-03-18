@@ -1,5 +1,5 @@
 # Hugo Site Configuration
-baseURL = "https://Mohamed007k.github.io" # Replace with your actual domain once purchased
+baseURL = "https://mohamedkhaled.me/" # Replace with your actual domain once purchased
 languageCode = "en-us"
 title = "Mohamed Khaled | Portfolio"
 theme = "careercanvas"
