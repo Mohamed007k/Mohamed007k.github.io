@@ -46,7 +46,7 @@ defaultContentLanguageInSubdir = false
 
   sectionPagesMenu = "main"
   formspreeendpoint = "" # You can add a Formspree endpoint later for a working contact form
-  pexelsapikey = "" # If you want to use the Pexels backgrounds, you'll need a free API key
+  pexelsapikey = "He4QiaC6FKC2QR0EGI2eCRZkyRnd8LBrM5WT81g7gXYe0DAbJFmLMJvn" # If you want to use the Pexels backgrounds, you'll need a free API key
 
 
 
