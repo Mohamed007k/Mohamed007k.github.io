@@ -2,6 +2,93 @@
 title: "Tech Stack"
 type: "homepage"
 intro: >-
+  Technical expertise spanning high-performance backend architecture, data engineering, machine learning, and core computer science fundamentals.
+
+technical_groups:
+  - title: "Programming Languages"
+    icon: "code"
+    color_scheme: "blue"
+    skills:
+      - icon: "python"
+        name: "Python"
+        devicon_name: "python"
+      - icon: "c"
+        name: "C++"
+        devicon_name: "cplusplus"
+      - icon: "c"
+        name: "C"
+        devicon_name: "c"
+      - icon: "js"
+        name: "JavaScript"
+        devicon_name: "javascript"
+
+  - title: "Data Science & Engineering"
+    icon: "chart-line"
+    color_scheme: "orange"
+    skills:
+      - icon: "table-cells"
+        name: "Pandas"
+        devicon_name: "pandas"
+      - icon: "square-root-alt"
+        name: "NumPy"
+        devicon_name: "numpy"
+      - icon: "chart-bar"
+        name: "Matplotlib"
+        devicon_name: "matplotlib"
+
+  - title: "AI/ML Frameworks"
+    icon: "brain"
+    color_scheme: "purple"
+    skills:
+      - icon: "layer-group"
+        name: "TensorFlow"
+        devicon_name: "tensorflow"
+      - icon: "robot"
+        name: "Generative AI"
+
+  - title: "Web & Backend Frameworks"
+    icon: "server"
+    color_scheme: "blue"
+    skills:
+      - icon: "server"
+        name: "Django"
+        devicon_name: "django"
+      - icon: "html5"
+        name: "HTML5 Canvas"
+        devicon_name: "html5"
+      - icon: "code"
+        name: "JSON API"
+
+  - title: "Databases & Query Languages"
+    icon: "database"
+    color_scheme: "green"
+    skills:
+      - icon: "database"
+        name: "SQL"
+        devicon_name: "azuresqldatabase"
+
+  - title: "Development Tools"
+    icon: "tools"
+    color_scheme: "red"
+    skills:
+      - icon: "code-branch"
+        name: "Git"
+        devicon_name: "git"
+      - icon: "github"
+        name: "GitHub"
+        devicon_name: "github"
+      - icon: "window-restore"
+        name: "Qt"
+        devicon_name: "qt"
+      - icon: "file-alt"
+        name: "LaTeX"
+        devicon_name: "latex"
+---
+
+<!-- ---
+title: "Tech Stack"
+type: "homepage"
+intro: >-
   Technical expertise spanning software development, AI/ML, and engineering technologies.
 
 technical_groups:
@@ -241,4 +328,4 @@ technical_groups:
       - icon: "calculator"
         name: "MATLAB"
         devicon_name: "matlab"
---- 
+---  -->

@@ -1,7 +1,7 @@
 # Hugo Site Configuration
-baseURL = "https://felipecordero.com"
+baseURL = "https://mohamedkhaled.me" # Replace with your actual domain once purchased
 languageCode = "en-us"
-title = "Felipe Cordero"
+title = "Mohamed Khaled | Portfolio"
 theme = "careercanvas"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -12,92 +12,51 @@ defaultContentLanguageInSubdir = false
     languageName = "English"
     weight = 1
     [languages.en.params]
-      tagline = "Engineer. Coder. Problem Solver."
-      hero_description = "Structural Engineer, AI and Full Stack Developer with 14+ years in Architecture, Engineering, and Construction (AEC). Currently building security and compliance solutions for LLM-based AI agents at Fireraven."
-      hero_location = "Montréal, Canada"
-      resume_url = "/files/Felipe_Cordero_CV_English_version.pdf"
-      collab_tags = [
-        "Full Stack Development",
-        "AI Security & Compliance",
-        "LLM-based Solutions",
-        "PostgreSQL & Data Pipelines",
-        "Agile Scrum"
-      ]
-  [languages.es]
-    contentDir = "content/es"
-    languageName = "Español"
-    weight = 2
-    [languages.es.params]
-      tagline = "Ingeniero. Desarrollador de Software. Solucionador de problemas."
-      hero_description = "Ingeniero estructural, IA y desarrollador full stack con más de 14 años en Arquitectura, Ingeniería y Construcción (AEC). Creando soluciones inteligentes y de seguridad para agentes de IA basados en LLM."
-      hero_location = "Montreal, Canadá"
-      resume_url = "/files/Felipe_Cordero_CV_English_version.pdf"
-      collab_tags = [
-        "Soluciones de IA/ML",
-        "Software de Ingeniería",
-        "I+D e Innovación",
-        "Liderazgo Técnico",
-        "Tecnología en Construcción"
-      ]
-  [languages.fr]
-    contentDir = "content/fr"
-    languageName = "Français"
-    weight = 3
-    [languages.fr.params]
-      tagline = "Ingénieur. Codeur. Résolveur de problèmes."
-      hero_description = "Ingénieur structure, IA et développeur full stack avec plus de 14 ans d'expérience en architecture, ingénierie et construction (AEC). Développement de solutions de sécurité et conformité pour agents IA basés sur LLM."
-      hero_location = "Montréal, Canada"
-      resume_url = "/files/Felipe_Cordero_CV_French_version.pdf"
-      collab_tags = [
-        "Solutions IA/ML",
-        "Logiciels d'ingénierie",
-        "R&D et Innovation",
-        "Leadership technique",
-        "Technologie de construction"
-      ]
+      tagline = "Aspiring Data engineer" 
+      hero_description = "I build robust data pipelines and high-performance backend architectures to power the next generation of AI solutions."
+      hero_location = "Giza, Egypt"
+      collab_tags = ["Data Engineering", "Machine Learning", "C++", "Python"]
+      resume_url = "files/Resume.pdf" # Place your PDF in static/files/
+      resume_label = "View CV"
 
 [build]
   writeStats = true
 
+
+
 [params]
-name = "Felipe Cordero"
-firstName = "Felipe"
-lastName = "Cordero"
-email = "mail@felipecordero.com"
-profile_image = "/images/felipe-cordero-profile.jpg"
-author = "Felipe Cordero"
+  name = "Mohamed Khaled"
+  email = "m.khaled306060@gmail.com"
+  profile_image = "/images/profile.jpg" # Add your headshot to static/images/profile.jpg
+  author = "Mohamed Khaled"
 
-og_image = "images/felipecordero-og.png"
+  og_image = "images/og-image.png" 
 
-description = "Structural Engineer, AI and Full Stack Developer. Building security and compliance solutions for LLM-based AI agents at Fireraven."
+  description = "Portfolio of Mohamed Khaled, a Computer Science student at AUC specializing in data engineering, backend architecture, and machine learning."
+  
 
-linkedin_url = "https://www.linkedin.com/in/felipe-cordero-osorio"
-linkedin_text = "linkedin.com/in/felipe-cordero-osorio"
-github_url = "https://github.com/felipecordero"
-github_text = "github.com/felipecordero"
+  linkedin_url = "https://www.linkedin.com/in/mohamed-khaled-4a2019266/"
+  linkedin_text = "linkedin.com/in/mohamed-khaled"
+  github_url = "https://github.com/Mohamed007k"
+  github_text = "github.com/Mohamed007k"
+  
+  calendly_url = ""
+  calendly_height = "700px"
+  copyright = "© 2026 | Mohamed Khaled"
 
-calendly_url = "https://calendly.com/mail-felipecordero/30min"
-calendly_height = "700px"
+  sectionPagesMenu = "main"
+  formspreeendpoint = "" # You can add a Formspree endpoint later for a working contact form
+  pexelsapikey = "" # If you want to use the Pexels backgrounds, you'll need a free API key
 
-copyright = "Felipe Cordero"
 
-
-resume_url_en = "/files/Felipe_Cordero_CV_English_version.pdf"
-resume_url_fr = "/files/Felipe_Cordero_CV_French_version.pdf"
-resume_label = "View CV"
-
-# Form and Pexels: set in config or config.local.toml. CI: HUGO_PARAMS_FORMSPREEENDPOINT, HUGO_PARAMS_PEXELSAPIKEY (no underscores)
-formspreeendpoint = ""
-pexelsapikey = ""
 
 [[params.social]]
-icon = "linkedin-in"
-url = "https://www.linkedin.com/in/felipe-cordero-osorio/"
-
-[[params.social]]
-icon = "github"
-url = "https://github.com/felipecordero"
-
+    icon = "linkedin-in"
+    url = "https://www.linkedin.com/in/mohamed-khaled-4a2019266/"
+  [[params.social]]
+    icon = "github"
+    url = "https://github.com/Mohamed007k"
+    
 sectionPagesMenu = 'main'
 
 
